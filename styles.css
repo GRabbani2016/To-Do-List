@@ -1,0 +1,76 @@
+body {
+    font-family: "Exo 2", sans-serif;
+    background: linear-gradient(to right, #6DD5FA, #FF758C);
+}
+:root{
+    --primary: #4CAF50;
+}
+h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid  var(--primary);
+}
+input:focus-visible{
+    outline: none;
+    box-shadow: 1px 1px 10px #0080001f;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary);
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--primary);
+}
+li:first-child{
+    border-top:  1px solid var(--primary);
+}
+li{
+    border-top: 0;
+}
+
+.delete {
+    color: #fff;
+    cursor: pointer;
+}
+
+.new-task{
+    border: 1px solid  var(--primary);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.new-task h4{
+    text-align: center;
+    text-transform: uppercase;
+    background:  var(--primary);
+    color: white;
+    padding: 10px;
+ 
+}
+.to-do-app{
+    padding: 50px;
+    background: #fff;
+    margin: 200px 0;
+}
